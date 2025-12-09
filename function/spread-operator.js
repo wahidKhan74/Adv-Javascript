@@ -22,5 +22,5 @@ const updatedEmployee = {
 
 console.log(updatedAmounts);
 
-console.log(updatedEmployee);
+console.log(updatedEmployeea);
 
