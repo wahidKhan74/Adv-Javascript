@@ -29,5 +29,6 @@ console.log("API URL: " + appConfig.getApiUrl());
 console.log("Environment: " + appConfig.getEnvironment());
 
 // Attempting to change environment (will not work as ENV is private)
+// ENV = "development"; // This line would cause an error if uncommented
 appConfig.setEnvironment("development");
 console.log("Environment after change attempt: " + appConfig.getEnvironment());

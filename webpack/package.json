@@ -1,0 +1,26 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "description": "Webpack application for bundling assets",
+  "homepage": "https://github.com/wahidKhan74/Adv-Javascript#readme",
+  "bugs": {
+    "url": "https://github.com/wahidKhan74/Adv-Javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahidKhan74/Adv-Javascript.git"
+  },
+  "license": "ISC",
+  "author": "waheed",
+  "type": "commonjs",
+  "main": "function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ./dist/main.js",
+    "build" : "webpack --mode=development"
+  },
+  "devDependencies": {
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
+  }
+}

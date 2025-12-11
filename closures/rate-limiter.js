@@ -16,7 +16,7 @@ function rateLimiter(maxRequests) {
 }
 
 // Example usage:
-const limiter = rateLimiter(5, 10000); // 5 requests per 10 seconds
+const limiter = rateLimiter(5); // 5 requests per 10 seconds
 
 // Simulate requests
 for (let i = 1; i <= 70; i++) {
